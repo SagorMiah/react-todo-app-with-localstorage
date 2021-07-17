@@ -1,0 +1,29 @@
+body {
+  background-color: #262626;
+}
+
+.addbtn {
+  box-shadow: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.editordelete {
+  min-width: 30px !important;
+}
+
+.delete {
+  color: white !important;
+  font-size: 13px !important;
+  background-color: red !important;
+  font-weight: 600 !important;
+  padding: 8px 14px !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%);
+}
+
+.delete:hover {
+  background-color: rgb(211, 0, 0) !important;
+}
